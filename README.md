@@ -2,7 +2,7 @@
 Simple configuration nvim
 
 # INSTALL
-ripgrep
-packer vim
-npm
-node
+ripgrep,
+packer vim,
+npm,
+node,
