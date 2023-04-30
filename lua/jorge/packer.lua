@@ -16,22 +16,32 @@ return require('packer').startup(function(use)
 
 
 
-  -- Color Schemes
-  --
+  ----- Color Schemes ------
+  
   --Rose-pine
   use({ 'rose-pine/neovim', as = 'rose-pine' })
+  
+  --Dracula
+  use 'Mofiqul/dracula.nvim'
 
--- Zephyr-nvim
+  -- Zephyr-nvim
   use({
       'glepnir/zephyr-nvim',
       requires = { 'nvim-treesitter/nvim-treesitter', opt = true },
   })
 
+  --TokyoNight
+  use 'folke/tokyonight.nvim'
 
--- Transparent
 
+  --Catppuccin
+  use { "catppuccin/nvim", as = "catppuccin" }
+
+
+  -- Transparent
   use( 'xiyaowong/transparent.nvim' )
 
+------------------------------------------------------------
 
 
   -- TreeSitter

@@ -1,2 +1,2 @@
-require('zephyr')
-vim.cmd('colorscheme zephyr')
+--require('zephyr')
+--vim.cmd('colorscheme zephyr')
