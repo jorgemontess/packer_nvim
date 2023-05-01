@@ -43,6 +43,8 @@ return require('packer').startup(function(use)
 
 ------------------------------------------------------------
 
+  -- Colorizer (Color preview)
+  use 'norcalli/nvim-colorizer.lua'
 
   -- TreeSitter
 
